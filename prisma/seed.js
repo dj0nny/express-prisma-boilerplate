@@ -22,7 +22,7 @@ const seed = async () => {
 
 seed()
   .then(async () => {
-    await prisma.$disconnect;
+    await prisma.$disconnect();
   })
   .catch(async (error) => {
     console.error(`An error occurred: ${error}`);
