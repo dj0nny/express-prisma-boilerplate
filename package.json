@@ -1,0 +1,29 @@
+{
+  "name": "express-prisma-bolierplate",
+  "version": "1.0.0",
+  "description": "An Express - Prisma ORM boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dj0nny/express-prisma-bolierplate.git"
+  },
+  "keywords": [],
+  "author": "dj0nny <frank96990@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dj0nny/express-prisma-bolierplate/issues"
+  },
+  "homepage": "https://github.com/dj0nny/express-prisma-bolierplate#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "prisma": "^4.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
