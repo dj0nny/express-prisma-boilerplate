@@ -1,5 +1,5 @@
 {
-  "name": "express-prisma-bolierplate",
+  "name": "express-prisma-boilerplate",
   "version": "1.0.0",
   "description": "An Express - Prisma ORM boilerplate",
   "main": "index.js",
