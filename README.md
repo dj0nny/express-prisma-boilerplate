@@ -39,6 +39,8 @@ For this boilerplate, the default database client is __Postgres__.
 
 Before running this boilerplate, you need to update your `schema.prisma` located in the `./prisma` folder.
 
+You can clean up the example migration with `rm -rf ./prisma/migrations` command.
+
 Inside this file will go the model definitions of your database tables. Once you update the models, you can update the database running `npx prisma migrate dev --name migration-name`.
 This command is going to do two things:
   1. It creates a new SQL migration file for this migration
